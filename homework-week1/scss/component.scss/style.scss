@@ -1,0 +1,126 @@
+
+// .wrapper{
+//   min-height: 100%;
+//   overflow: hidden;
+// }
+.container{
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 992px;  
+}
+.header{
+  position: absolute;
+  top: 0;
+  display: flex;
+    &__logo{
+     padding-right: 45px;
+  }
+}
+.menu{
+    &__list{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+  &__item{
+    padding-right: 25px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+  }
+   &__item-phone a{
+    margin-left: 25px;
+    padding-left: 20px;
+    font-size: 22px;
+    background:url(../img/icon/phone.png) left no-repeat;  
+   
+  }
+}
+.hero__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px 0 45px;
+  height: 100%;
+}
+.hero{
+  top: 0;
+  height: 100vh;
+  min-height: 655px;
+  padding: 176px 0 35px;
+  background: url(../img/arnaud.png) center no-repeat;
+  background-size: cover;
+  color: $fonts-color;
+  
+  
+  &__title{
+    max-width: 583px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    text-transform: uppercase;
+    
+     
+  }
+  &__subtitlle{
+    margin: 25px 0 36px 0;
+    width: 382px;
+    font-size: 21px;
+    // color: $fonts-color;
+  }
+  
+} 
+.service{
+  &__list{
+    display: flex;
+    width: 142px;
+    height: 41px;
+    font-size: 16px;
+    font-weight: 700;
+    // color: $fonts-color;
+  }
+ &__list li{
+  //  margin-right: 35px;
+   padding: 0 50px;
+ }
+   &__item-board {
+     display: block;
+    background:url(../img/icon/board.png) left no-repeat;
+}
+   
+  &__item-materials{
+    background: url(../img/icon/materials.png) left no-repeat;
+  }
+  &__item-car{
+    background: url(../img/icon/car.png) left no-repeat;
+  }
+  }
+// кнопка
+.btn{
+  margin-bottom: 60px;
+  padding: 21px 41px;
+  width: 156px;
+  height: 60px;
+  background: $btn-color;
+  border-radius: 100px;
+  font-size: 16px;
+  font-weight: 800;
+  color:#000;
+  text-transform: uppercase;
+}
+
+.section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  min-height: 650px;
+ 
+  &__title{
+    margin-bottom: 20px;
+    font-size: 48px;
+    align-items: center;
+
+  }
+
+}
