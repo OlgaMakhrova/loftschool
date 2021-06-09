@@ -1,0 +1,16 @@
+.menu{
+  &__list{
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+&__item{
+ margin-right: 25px;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  &:last-child{
+    margin-right: 0;
+  }
+}
+}
